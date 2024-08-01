@@ -1,5 +1,5 @@
-<img src="https://github.com/m4ster03/easyFuzz/blob/main/easyFuzz.jpg">
 # easyFuzz
+<img src="https://github.com/m4ster03/easyFuzz/blob/main/easyFuzz.jpg">
 With this python script you can automate the fuzzing process with wfuzz and make it a simpler task without writing commands.
 
 # Instalation
