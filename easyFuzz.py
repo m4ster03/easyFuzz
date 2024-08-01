@@ -45,7 +45,7 @@ if selection == "2":
     print("")
     wordlist = input("What is the wordlist that you want to use?: ")
     print("")
-    hidel = input("Do you want to hide a line?: ")
+    hidel = input("Do you want to hide a line?(no/yes): ")
     if hidel == "no":
         subprocess.run([f"wfuzz -c --hc=404 -w {wordlist} {url}FUZZ"], shell=True)
     elif hidel == "yes":
@@ -63,7 +63,7 @@ elif selection == "1":
     print("")
     wordlist = input("What is the wordlist that you want to use?: ")
     print("")
-    hidel = input("Do you want to hide a line?: ")
+    hidel = input("Do you want to hide a line?(no/yes): ")
     if hidel == "no":
         subprocess.run([f""" wfuzz -c --hc=404 -w {wordlist} -u "{url}" -H "Host: FUZZ.{domain}" """], shell=True)
     elif hidel == "yes":
