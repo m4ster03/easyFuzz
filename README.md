@@ -8,11 +8,13 @@ Download the repository: <br>
   sudo git clone https://github.com/m4ster03/easyFuzz.git
   ```
 # Execution
-```sh
-  cd easyFuzz.py
-  ```
-<br>
 
+```sh
+  cd easyFuzz
+  ```
+```sh
+  chmod +x easyFuzz.py
+  ```
 ```sh
   sudo python3 easyFuzz.py
   ```
