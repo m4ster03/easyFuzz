@@ -3,4 +3,5 @@ With this python script you can automate the fuzzing process with wfuzz and make
 # Instalation
 Download the repository: sudo git clone https://github.com/m4ster03/easyFuzz.git
 # Execution
+cd easyFuzz.py
 sudo python3 easyFuzz.py
